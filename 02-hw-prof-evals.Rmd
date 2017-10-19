@@ -1,7 +1,7 @@
 ---
 title: "Modeling course evaluations"
 author: "Team Name"
-date: "October 19, 2017"
+date: "October 24, 2017"
 output: 
   html_document: 
     fig_height: 4
@@ -10,9 +10,17 @@ output:
     theme: sandstone
 ---
 
+### Load packages
+
+```{r packages, include=FALSE}
+library(tidyverse)
+library(broom)
+```
+
+
 ### Load the data
 
-```{r setup, include=FALSE}
+```{r data, include=FALSE}
 evals <- read_csv("data/evals-mod.csv")
 ```
 
