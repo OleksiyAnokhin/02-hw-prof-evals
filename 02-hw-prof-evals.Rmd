@@ -1,0 +1,21 @@
+---
+title: "Modeling course evaluations"
+author: "Team Name"
+date: "October 19, 2017"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    keep_md: yes
+    theme: sandstone
+---
+
+### Load the data
+
+```{r setup, include=FALSE}
+evals <- read_csv("data/evals-mod.csv")
+```
+
+### The rest is yours to format...
+
+and fill out ...
